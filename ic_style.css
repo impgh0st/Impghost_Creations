@@ -1,214 +1,277 @@
 :root{
-    --cs-black_cyan: #05161A;
-    --cs-very_dark_cyan: #072E33;
-    --cs-dark_cyan: #0C7075;
-    --cs-blue_cyan: #0F969C;
-    --cs-light_blue: #6DA5C0;
-    --cs-cloudy_blue: #294D61;
+  --cs-black_cyan: #05161A;
+  --cs-very_dark_cyan: #072E33;
+  --cs-dark_cyan: #0C7075;
+  --cs-blue_cyan: #0F969C;
+  --cs-light_blue: #6DA5C0;
+  --cs-cloudy_blue: #294D61;
 }
 
-
-
-
 body {
-    font-family: 'Alegreya Sans', sans-serif;
-    margin: 0;
-    padding: 0;
-    background: linear-gradient(to bottom, #1a1a1a, #2a2a2a, #333);
-    color: var(--cs-light_blue);
+  font-family: 'Alegreya Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to bottom, #1a1a1a, #2a2a2a, #333);
+  color: var(--cs-light_blue);
 }
 
 .landing {
-    text-align: center;
-    padding: 100px 20px;
+  text-align: center;
+  padding: 100px 20px;
 }
 
 .landing h1 {
-    color: var(--cs-blue_cyan);
-    margin-bottom: 20px;
+  color: var(--cs-blue_cyan);
+  margin-bottom: 20px;
 }
 
 .landing h3 {
-    color: var(--cs-cloudy_blue);
-    margin-bottom: 5px;
+  color: var(--cs-cloudy_blue);
+  margin-bottom: 5px;
 }
 
 .landing img {
-    max-width: 200px;
-    border-radius: 0%;
-    margin-bottom: 20px;
+  max-width: 200px;
+  border-radius: 0%;
+  margin-bottom: 20px;
 }
 
 .main {
-    text-align: center;
-    padding: 50px 20px;
+  text-align: center;
+  padding: 50px 20px;
 }
 
 .main p {
-    max-width: 800px;
-    margin: 0 auto;
+  max-width: 800px;
+  margin: 0 auto;
 }
 
 .cta {
-    text-align: center;
-    margin: 50px 0;
+  text-align: center;
+  margin: 50px 0;
 }
 
 .cta button {
-    padding: 10px 20px;
-    font-size: 18px;
-    background-color: var(--cs-blue_cyan);
-    border: none;
-    border-radius: 5px;
-    color: #333;
-    cursor: pointer;
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: var(--cs-blue_cyan);
+  border: none;
+  border-radius: 5px;
+  color: #333;
+  cursor: pointer;
 }
 
 .nav {
-    text-align: center;
-    background: var(--cs-black_cyan);
-    padding: 20px;
+  text-align: center;
+  background: var(--cs-black_cyan);
+  padding: 20px;
 }
 
 .nav ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 .nav li {
-    display: inline-block;
-    margin-right: 20px;
+  display: inline-block;
+  margin-right: 20px;
 }
 
 .nav a {
-    text-decoration: none;
-    color: var(--cs-light_blue);
-    font-weight: bold;
+  text-decoration: none;
+  color: var(--cs-light_blue);
+  font-weight: bold;
 }
 
 /* Portfolio */
 #portfolio {
-    padding: 40px;
-    text-align: center;
-  }
-  
-  .project {
-    margin-bottom: 2rem;
-    height: auto;
-    width: 50%;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  
-  .project img {
-    max-width: 100%;
-    height: auto;
-  }
-  
-  #prevBtn, #nextBtn {
-    background-color: var(--cs-black_cyan);
-    color: var(--cs-light_blue);
-    border: none;
-    padding: 10px 20px;
-    cursor: pointer;
-    margin: 0 10px;
-  }
-  
-   /* About Me */
-   #about {
-    padding: 40px;
-    text-align: center;
-  }
-  
-  #about img {
-    max-width: 600px;
-    width: 100%;
-    height: auto;
-    border-radius: 50%;
-    margin-bottom: 20px;
-    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+  padding: 40px;
+  text-align: center;
+}
+
+.project {
+  margin-bottom: 2rem;
+  height: auto;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.project img {
+  max-width: 100%;
+  height: auto;
+}
+
+#prevBtn, #nextBtn {
+  background-color: var(--cs-black_cyan);
+  color: var(--cs-light_blue);
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin: 0 10px;
+}
+
+/* About Me */
+#about {
+  padding: 40px;
+  text-align: center;
+}
+
+#about img {
+  max-width: 600px;
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+  margin-bottom: 20px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Contact */
+#contact {
+  padding: 40px;
+  text-align: center;
+}
+
+form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid var(--cs-light_blue);
+  border-radius: 4px;
+}
+
+button {
+  background-color: var(--cs-black_cyan);
+  color: var(--cs-light_blue);
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 1rem 0;
+  background-color: var(--cs-black_cyan);
+  color: var(--cs-light_blue);
+}
+
+
+
+/* Add media query for responsiveness */
+@media screen and (max-width: 768px) {
+  .service-container {
+      padding: 15px;
   }
 
-    /* Contact */
-    #contact {
-        padding: 40px;
-        text-align: center;
-      }
-      
-      form {
-        max-width: 400px;
-        margin: 0 auto;
-      }
-      
-      label {
-        display: block;
-        margin-bottom: 5px;
-      }
-      
-      input, textarea {
-        width: 100%;
-        padding: 10px;
-        margin-bottom: 15px;
-        border: 1px solid var(--cs-light_blue);
-        border-radius: 4px;
-      }
-      
-      button {
-        background-color: var(--cs-black_cyan);
-        color: var(--cs-light_blue);
-        border: none;
-        padding: 10px 20px;
-        cursor: pointer;
-      }
-      
-      /* Footer */
-      footer {
-        text-align: center;
-        padding: 1rem 0;
-        background-color: var(--cs-black_cyan);
-        color: var(--cs-light_blue);
-      }
-  
-      .services {
-        text-align: center;
-      }
-      
-      .service-container {
-        border: 1px var(--cs-black_cyan) solid;
-        margin: 10px;
-        display: flex;
-        flex-wrap: wrap; /* Allow items to wrap to the next line on smaller screens */
-        justify-content: center; /* Center the items horizontally */
-        padding: 35px;
-      }
-      
-      .design,
-      .pricing,
-      .hosting,
-      .develop,
-      .market,
-      .seo {
-        flex: 0 0 calc(33.33% - 20px); /* Adjust the width as per your design, leaving space between items */
-        margin: 10px; /* Add some margin to separate the items */
-        background-color: var(--cs-blue_cyan);
-        color: var(--cs-black_cyan);
-        padding: 15px;
-        border: 1px #444 solid;
-        text-align: center;
-      }
-      
-      /* Add media query for responsiveness */
-      @media screen and (max-width: 768px) {
-        .service-container {
-          padding: 15px; /* Adjust padding for smaller screens */
-        }
-      
-        .design,
-        .develop,
-        .market,
-        .seo {
-          flex: 0 0 calc(50% - 20px); /* Two items per row on smaller screens */
-        }
-      }
-      
+  #design,
+  #develop,
+  #hosting,
+  #pricing,
+  #market,
+  #seo {
+      flex: 0 0 calc(50% - 20px);
+  }
+}
+
+.hidden {
+  display: none;
+}
+
+/* Services */
+.service-container {
+  border: 1px var(--cs-black_cyan) solid;
+  margin: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 35px;
+}
+
+#design,
+#pricing,
+#hosting,
+#develop,
+#market,
+#seo {
+  flex: 0 0 calc(33.33% - 20px);
+  margin: 10px;
+  background-color: var(--cs-blue_cyan);
+  color: var(--cs-black_cyan);
+  padding: 15px;
+  border: 1px var(--cs-black_cyan) solid;
+  text-align: center;
+  position: relative;
+}
+
+#design:hover::after,
+#develop:hover::after,
+#hosting:hover::after,
+#pricing:hover::after,
+#market:hover::after,
+#seo:hover::after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+
+#design:hover #service-text,
+#develop:hover #service-text,
+#hosting:hover #service-text,
+#pricing:hover #service-text,
+#market:hover #service-text,
+#seo:hover #service-text {
+  display: none;
+}
+
+#design:hover #hover-text,
+#develop:hover #hover-text,
+#hosting:hover #hover-text,
+#pricing:hover #hover-text,
+#market:hover #hover-text,
+#seo:hover #hover-text {
+  display: block;
+  z-index: 2;
+}
+
+.service-text {
+  z-index: 2;
+}
+
+.hover-text {
+  display: none;
+  z-index: 1;
+}
+
+/* Add media query for responsiveness */
+@media screen and (max-width: 768px) {
+  .service-container {
+    padding: 15px;
+  }
+
+  #design,
+  #develop,
+  #hosting,
+  #pricing,
+  #market,
+  #seo {
+    flex: 0 0 calc(50% - 20px);
+  }
+}
